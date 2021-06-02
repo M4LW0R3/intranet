@@ -1266,7 +1266,7 @@ section.buttons .container-fluid {
     background-image: url(/assets/images/logo.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-image: cover;
+    /* background-image: cover; */
 }
 
 #header .logo a {
