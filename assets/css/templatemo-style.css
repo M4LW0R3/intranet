@@ -400,7 +400,7 @@ section.contact-form {
 
 .contact-form button:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);
 }
 
 
@@ -545,7 +545,7 @@ ul.table-pagination li a {
 
 ul.table-pagination li a:hover,
 ul.table-pagination li.active a {
-    background-color: #535ba0;
+    background-color: rgb(181, 178, 50);;
     color: #fff;
 }
 
@@ -715,7 +715,7 @@ section.buttons .container-fluid {
 
 .filled-rectangle-button a:hover {
     color: #FFFFFF;
-    background-color: rgba(83, 91, 160, 0.25);
+    background-color: rgb(181, 178, 50);
 }
 
 .border-rectangle-button {
@@ -739,7 +739,7 @@ section.buttons .container-fluid {
 
 .border-rectangle-button a:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);;
 }
 
 .filled-radius-button {
@@ -758,7 +758,7 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);;
     border-radius: 5px;
 }
 
@@ -839,7 +839,7 @@ section.buttons .container-fluid {
 
 .border-rounded-button a:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);;
 }
 
 .filled-icon-button {
@@ -862,7 +862,7 @@ section.buttons .container-fluid {
     color: #fff;
     border: 2px solid #535ba0;
     transition: all 0.5s;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);
     border-radius: 20px;
 }
 
@@ -897,7 +897,7 @@ section.buttons .container-fluid {
 
 .border-icon-button a:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);;
 }
 
 /* Page Heading */
@@ -1166,7 +1166,7 @@ section.buttons .container-fluid {
     }
 
     #sidebar .toggle:after {
-        background: rgba(83, 91, 160, 0.90);
+        background: rgba(228, 198, 80, 0.9);
         border-radius: 5px;
         content: '';
         height: 60px;
@@ -1254,12 +1254,16 @@ section.buttons .container-fluid {
     margin: -100px -100px 100px -100px;
 }
 
-#header . {
+#header .logo{
     text-align: right;
     display: inline-block;
     width: 100%;
     height: 100px;
     line-height: 100px;
+    background-image: url(/assets/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: cover;
 }
 
 #header .logo a {
@@ -1267,10 +1271,9 @@ section.buttons .container-fluid {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #fff;
-    font-weight: 700;
-    margin-right: 100px;
+    font-weight: 400;
+    margin-right: 400px;
 }
-
 
 /* Footer */
 
@@ -1324,7 +1327,7 @@ section.buttons .container-fluid {
 
 #menu ul a:hover,
 #menu ul span:hover {
-    color: #535ba0;
+    color: rgb(181, 178, 50);
 }
 
 #menu ul a.opener,
@@ -1362,7 +1365,7 @@ section.buttons .container-fluid {
 
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
-    color: #535ba0;
+    color: rgb(181, 178, 50);
 }
 
 #menu ul a.opener.active+ul,
