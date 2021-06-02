@@ -358,10 +358,13 @@ section.contact-form {
     margin-bottom: 40px;
 }
 
+
+
+
 .contact-form input:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color:#5e0c00;
 }
 
 .contact-form textarea {
@@ -382,7 +385,7 @@ section.contact-form {
 .contact-form textarea:focus {
     outline: none;
     box-shadow: none;
-    border-color: #535ba0;
+    border-color: #5e0c00;
 }
 
 .contact-form button {
@@ -731,8 +734,8 @@ section.buttons .container-fluid {
     width: 100%;
     text-align: center;
     letter-spacing: 0.5px;
-    color: #535ba0;
-    border: 2px solid #535ba0;
+    color: #5e0c00;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
     background-color: rgba(83, 91, 160, 0.0);
 }
@@ -756,9 +759,9 @@ section.buttons .container-fluid {
     text-align: center;
     letter-spacing: 0.5px;
     color: #fff;
-    border: 2px solid #535ba0;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
-    background-color: rgb(181, 178, 50);;
+    background-color: rgb(181, 178, 50);
     border-radius: 5px;
 }
 
@@ -780,8 +783,8 @@ section.buttons .container-fluid {
     width: 100%;
     text-align: center;
     letter-spacing: 0.5px;
-    color: #535ba0;
-    border: 2px solid #535ba0;
+    color: #5e0c00;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
     background-color: rgba(83, 91, 160, 0.0);
     border-radius: 5px;
@@ -789,7 +792,7 @@ section.buttons .container-fluid {
 
 .border-radius-button a:hover {
     color: #fff;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);
 }
 
 .filled-rounded-button {
@@ -806,9 +809,9 @@ section.buttons .container-fluid {
     text-align: center;
     letter-spacing: 0.5px;
     color: #fff;
-    border: 2px solid #535ba0;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
-    background-color: rgba(83, 91, 160, 1);
+    background-color: rgb(181, 178, 50);
     border-radius: 20px;
 }
 
@@ -860,7 +863,7 @@ section.buttons .container-fluid {
     text-align: center;
     letter-spacing: 0.5px;
     color: #fff;
-    border: 2px solid #535ba0;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
     background-color: rgb(181, 178, 50);
     border-radius: 20px;
@@ -888,8 +891,8 @@ section.buttons .container-fluid {
     width: 100%;
     text-align: center;
     letter-spacing: 0.5px;
-    color: #535ba0;
-    border: 2px solid #535ba0;
+    color: #5e0c00;
+    border: 2px solid #5e0c00;
     transition: all 0.5s;
     background-color: rgba(83, 91, 160, 0.0);
     border-radius: 20px;
